@@ -20,6 +20,14 @@ console.log(typeof c);//boolean
 console.log(typeof d);//object
 console.log(typeof e);//object
 console.log(typeof f);//undefined
+let numbers=[10,20,30,40,50];
+console.log(numbers[2]);//30
+console.log(numbers[0]);//10
+console.log(numbers[numbers.length-1]);//50
+let fruits=["apple","banana","mango"];
+fruits[1]="orange";
+console.log(fruits);//[ 'apple', 'orange', 'mango' ]
+
 
 
 
